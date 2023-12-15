@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* adjust FONT-SIZE in final edits*/ 
+h1 {
+	color: #FBFBFB;
+	font-size: 35px; 
+}
+
+.bookcover {
+	width: 22%;
+	float:left;
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	margin-top: 20px; 
+	padding: 1% 0; 
+	background-color: #008853;
+	border: solid medium #F4E15D;
+}
+.HomeMainContent {
+	float:left; 
+	width:70%;
+	height: auto; 
+	margin-left: 3%; 
+	margin-top: 20px; 
+	margin-bottom: 5%; 
+	padding: .5% 1.5%; 
+	background-color: #008853; 
+	border: solid medium #F4E15D;
+}

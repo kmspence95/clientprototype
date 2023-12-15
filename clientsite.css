@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: linear-gradient(to bottom, #df4973 10%, orange 60%, #f5e65d 100%); 
+}
+
+h1 {
+	color: #FBFBFB;
+	font-size: 35px; 
+} 
+
+header { 
+	background:  linear-gradient(to bottom, #df4973 10%, orange 60%, #f5e65d 100%);  
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5); 
+}
+
+.headcontainer {
+	display: flex;
+	justify-content: space-around; 
+	align-items: center; 
+	width: 100%; 
+}
+
+
+.headtext {
+	display:flex;
+	align-items: center; 
+	text-align: center;
+	flex-direction:column;
+	margin-left: 60px;
+	margin-right: 60px; 
+}
+
+.nav {
+	background:#DF4972; 
+	border: medium solid #F4E15D; 
+	margin-bottom: 1%;
+	padding: 0;
+	height: auto; 
+	width: 100%; 
+	overflow: hidden;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+	
+} 
+.nav a {
+	float: left;   
+	color: #f2f2f2;
+	background-color: #008853; 
+	text-align: center;
+	padding: 16px;
+	margin: 16px; 
+	text-decoration: none;
+	font-size: 17px;
+}
+.nav a:hover {
+	background-color:#08FB9B; 
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden; 
+	justify-content: center; 
+	padding: 16px; 
+}
+
+.dropdown .dropbtn {
+	font-size: 17px;
+ 	 border: none;
+ 	 outline: none;
+	background-color: #008853; 
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	color: white; 
+	font-family: inherit;  
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #08FB9B ; 
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+	background-color:#DF4972; 
+  /*Keep shadow box with background-color or none?*/
+  min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5); 
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.3);
+}
+
+/* Add background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #08FB9B;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+	position: fixed; /*FIX POSITION. Keep at bottom, but not following scrolling*/ 
+	left:0;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	background-color: #DF4972;
+}
